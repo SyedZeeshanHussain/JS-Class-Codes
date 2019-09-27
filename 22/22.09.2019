@@ -1,0 +1,64 @@
+//alert("Hello World!");
+//window.alert("Hello PIAIC!");
+
+/*
+var nationality;
+nationality = "Pakistani";
+
+var name = "Qasim";
+var age = 25;
+var increaeInAge = age + 2;
+alert(increaeInAge);
+*/
+
+/*
+var name = "Qasim";
+alert(name);
+name = "Zeeshan";
+alert(name);
+*/
+
+/*
+var originalNum = "23";
+var newNum = originalNum + 7;
+alert(newNum);
+
+var originalNum = 23;
+var numToBeAdded = 7;
+var newNum = originalNum + numToBeAdded;
+alert(newNum);
+*/
+
+/*
+var a = 6;
+var b = 5;
+var sum = a + b;
+var sub = a - b;
+var div = a / b;
+var mul = a * b;
+var mod = a % b;
+alert(sum);
+alert(sub);
+alert(div);
+alert(mul);
+alert(mod);
+*/
+
+/*
+var a = 6 + 1 * 3;
+var a1 = (6 + 1) * 3;
+var b = 5;
+var c = 7;
+var d = 2;
+var e = b + c * d - c + b;
+alert(e);
+*/
+
+/*
+var f = 5;
+var g = 6;
+var g = g + f;
+alert(g);
+*/
+
+
