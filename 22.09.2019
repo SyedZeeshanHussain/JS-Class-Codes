@@ -61,4 +61,3 @@ var g = g + f;
 alert(g);
 */
 
-
