@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JavaScript Class</title>
+    <title>JS Class 6th October 2019</title>
 </head>
-
 <body>
     <script>
-        /* Chapter 15, Array */
+         //---- Chapter 15, Array -----//
         /*
         var aCities = ["Karachi", "Hyderabad", "Larkana"];
         aCities[3] = "Karachi";
@@ -24,9 +22,7 @@
         alert(aCities);
         alert(aCities[0]);
         alert(aCities.length);
-        
-        var myCity = "Lahore"; */
-
+        */
 
         /*
         var aCities = [];
@@ -54,7 +50,6 @@
         aCities[index++] = "Rawalpindi";
       
         var myCity = "Lahore";
-
         if(aCities[0] == myCity){
             alert("Found your city " + aCities[0])
         }
@@ -73,7 +68,6 @@
         aCities[index++] = "Gujranwala";
         aCities[index++] = "Rawalpindi";
         aCities[index++] = "Quetta";
-
         console.log(aCities);
         aCities.pop();        
         aCities.pop();
@@ -91,7 +85,6 @@
         aCities[index++] = "Gujranwala";
         aCities[index++] = "Rawalpindi";
         aCities[index++] = "Quetta";
-
         console.log(aCities);
         aCities.shift();        
         console.log(aCities);
@@ -108,7 +101,6 @@
         aCities[index++] = "Gujranwala";
         aCities[index++] = "Rawalpindi";
         aCities[index++] = "Quetta";
-
         console.log(aCities);
         aCities.splice(2,0, "Faisalabad");
         console.log(aCities);
@@ -127,30 +119,31 @@
         aCities[index++] = "Gujranwala";
         aCities[index++] = "Rawalpindi";
         aCities[index++] = "Quetta";
-
         console.log(aCities);
         var sCities = aCities.slice(2,5);
         console.log(sCities); */
 
-        //Assignment 1
+        //----Assignment 1-----//
         /*
         var names = ["Zeeshan", "Noman", "Farhan", "Rizwan"];
         console.log(names);
         */
 
-        /* Assignment 2
-        var name = [];
-        var ask = prompt("Enter your name0");
-        name.push(ask);
-        ask = prompt("Enter your name1");
-        name.push(ask);
-        ask = prompt("Enter your name2");
-        name.push(ask);
-        ask = prompt("Enter your name3");
-        name.push(ask);
-        alert(name); */
+        //---- Assignment 2 ----//
+        /*
+        var names = [];
+        var input = prompt("Enter 1st name");
+        names.push(input);
+        input = prompt("Enter 2nd name");
+        names.push(input);
+        input = prompt("Enter 3rd name");
+        names.push(input);
+        input = prompt("Enter 4th name");
+        names.push(input);
+        alert(names); */
 
-        /*Assignment 3
+        //---- Assignment 3 -----//
+        /*
         var nums = [1, 2, 35, 25];
         var userInput = prompt("Enter number");
         if (nums[0] == userInput) {
@@ -166,17 +159,20 @@
         }
         else alert("Not found"); */
 
-        //----- For loop -----//
 
+        //----- For loop -----//
+        /*
         for (var a=0; a <3; a++) {
             console.log("Hello " + a);
-        }
+        } */
 
+        /*
         var table = 4;
         for (var a = 1; a < 3; a++) {
             console.log(table + " * " + a + (table * a));
-        }
+        } */
 
+        /*
         var a = [];
         a.push(23);
         a.push(56);
@@ -185,9 +181,95 @@
         a.push(13);
         for (var i=0; i<5; i++ ) {
             console.log(a[i]);
-        }
+        } */
 
+        /*
+        for (var i=0; i<5; i++ ) {
+            console.log(a[i]);
+        }
+        for (var i=0; i<a.length; i++ ) {
+            console.log(a[i]); 
+        }*/
+
+        /*
+        for (var i=0; i<a.length; i++ ) {
+            if(a[i] == 56) {
+                console.log("Found " + a[i]);
+            }
+            else {
+                console.log("Not found " + a[i]);
+            }
+        }
+        for (var i=0; i<a.length; i++ ) {
+            if(a[i] == 123) {
+                console.log("Found " + a[i]);
+                break;
+            }
+            else {
+                console.log("Not found " + a[i]);
+            }
+        } */
+
+        /*
+        var isFound = false;
+        for (var i=0; i<a.length; i++ ) {
+            if(a[i] == 123) {
+                console.log("Found " + a[i]);
+                isFound = true;
+                break;
+            }
+        }
+            if (isFound == false) {
+                console.log("Not found " + a[i]);
+            }
+            */
+
+        //----Assignment 4 -----//
+         /*
+        var input = prompt("Which number table you want?");
+        var input2 = prompt("till numer");
+        for (var i=1; i<=input2; i++) {
+            console.log(input + " * " + i + " = " + (input * i));
+        } */
+
+        //---- Assignment 5 ----//
+        /* 
+        var a = [25,26, 123, 28];
+        var isFound = false;
+        for (var i=0; i<a.length; i++ ) {
+            if(a[i] == 123) {
+                console.log("Found " + a[i]);
+                isFound = true;
+                break;
+            }
+        }
+            if (isFound == false) {
+                // or you can write this if (!isFound)
+                console.log("Not found " + a[i]);
+            } */
+
+        //---- Assignment 6 ----//
+        /* 
+        var nums = [2,1,3,5,7,6,4];
+        var newNums = nums.sort();
+        console.log(newNums); */
+
+        //---- Nested for loop ----//
+            /*
+        var firstName = ["Abdullah", "Muhammad","Ghulam"];
+        var lastName = ["Khan", "Ali", "Raees"];
+        for (var i=0; i<firstName.length; i++) {
+            console.log(firstName[i] + " " + lastName[i]); 
+        } */
+
+        var firstName = ["Abdullah", "Muhammad","Ghulam"];
+        var lastName = ["Khan", "Ali", "Raees"];
+        firstName.push("Kaleem","Saleem","Raheem");
+        for (var i=0; i<firstName.length; i++) {
+            for (var j=0; j<lastName.length; j++) {
+            console.log(firstName[i] + " " + lastName[j]);
+        }
+    }
     </script>
 </body>
-
 </html>
