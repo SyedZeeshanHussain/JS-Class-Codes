@@ -70,7 +70,6 @@ if (a != "yes") {
 }
 else alert("Get lost"); 
 */
-
 /*
 var a = prompt("What is your %?");
 if(a > 80) {
